@@ -32,7 +32,7 @@ export default {
 
   <h3>Tasks:</h3>
   <ul>
-    <li v-for="task in tasks" :key="task">{{ task }} br</li>
+    <li v-for="task in tasks" :key="task">{{ task }}</li>
   </ul>
   <a :href="link">Click for google</a>
 
